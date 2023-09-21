@@ -1,15 +1,21 @@
 import React from "react";
 import { CardBody,Card,CardText,Button,Container, CardSubtitle } from "reactstrap";
 
-const Allcourses=({ course, onToggleActive})=>{
+const Allcourses=({ courses, onToggleActive})=>{
     return(
-        <Card className="text-center">
+        <Card  color="dark"
+        body
+        outline
+        style={{
+          width: '18rem'
+        }}
+        >
 
             <CardBody className="text-center">
-                <CardSubtitle>{course.title}</CardSubtitle>
-                <CardText>{course.description}</CardText>
+                <CardSubtitle tag="h5" style={{color:"black" }}>{courses.title}</CardSubtitle>
+                <CardText style={{color:"black" }}>{courses.description}</CardText>
                 <Container className="text-center">
-                    <Button color="info" onClick={() => onToggleActive(course.id)}>Enroll</Button>
+                    <Button color="info" onClick={() => onToggleActive(courses.id)}>Enroll</Button>
                     <Button color="info">Withdraw</Button>
                 </Container>
             </CardBody>

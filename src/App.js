@@ -1,25 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import Navbar from './Navbar';
-import Allcourses from './Allcourses';
-import AdminCourse from './AdminCourse';
+import Navbar from "./Navbar";
+import Allcourses from "./Allcourses";
+import AdminCourse from "./AdminCourse";
 
-
-
-
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-    
-     <Allcourses/>
+      <Navbar />
 
-   
-
-      
-      
+      <AdminCourse />
     </div>
   );
 }
