@@ -1,8 +1,8 @@
 .courses-list{
-    display: flex;
+    display: table;
     padding: 2%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     margin: 0 auto; /* Center horizontally */

@@ -1,8 +1,8 @@
 import React from "react";
 import './Courses.css';
 
-const Courses = ({ course, onToggleActive }) => {
-  const { title, description, active } = course;
+const Courses = ({ courses, onToggleActive }) => {
+  const { title, description, active } = courses;
 
   return (
     <div className={`course ${active ? 'active-course' : 'inactive-course'}`}>
@@ -10,7 +10,7 @@ const Courses = ({ course, onToggleActive }) => {
       <p>{description}</p>
       <button
         className={`toggle-button ${active ? 'active-button' : 'inactive-button'}`}
-        onClick={() => onToggleActive(course.id)}
+        onClick={() => onToggleActive(courses.id)}
       >
         {active ? 'Active' : 'Inactive'}
       </button>

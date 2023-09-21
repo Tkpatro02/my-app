@@ -1,4 +1,5 @@
 import React from "react";
+import "./Allcourses.css";
 import { CardBody,Card,CardText,Button,Container, CardSubtitle } from "reactstrap";
 
 const Allcourses=({ courses, onToggleActive})=>{
@@ -12,11 +13,11 @@ const Allcourses=({ courses, onToggleActive})=>{
         >
 
             <CardBody className="text-center">
-                <CardSubtitle tag="h5" style={{color:"black" }}>{courses.title}</CardSubtitle>
+                <CardSubtitle tag="h2" style={{color:"White" }}>{courses.title}</CardSubtitle>
                 <CardText style={{color:"black" }}>{courses.description}</CardText>
                 <Container className="text-center">
                     <Button color="info" onClick={() => onToggleActive(courses.id)}>Enroll</Button>
-                    <Button color="info">Withdraw</Button>
+                    <Button color="info"style={{ marginTop: "10px" }}>Withdraw</Button>
                 </Container>
             </CardBody>
         </Card>

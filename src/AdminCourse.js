@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-
+import "./Courses";
 import "./AdminCourse.css";
 import Allcourses from "./Allcourses";
+
 
 const AdminCourse = () => {
   const [courses, setCourses] = useState([

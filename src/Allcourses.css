@@ -1,0 +1,36 @@
+.courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.courses-list > div {
+    flex-grow: 1; 
+    width: calc(33.33% - 2%); 
+    margin: 1%; 
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: black;
+}
+
+.position {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.text-center{
+    background-color: rgb(141, 138, 138);
+    border-radius: 15%;
+    padding: 10%;
+    display: table;
+}

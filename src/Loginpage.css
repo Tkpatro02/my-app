@@ -1,12 +1,14 @@
 /* Loginpage.css */
 .login-page {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
-  gap: 20px; /* Gap between the columns */
-  justify-items: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px; 
+  justify-items: center; 
+  align-items: center; 
   min-height: 100vh;
   background-image: url("D:\Projectsssss\Courses_frontend\2473306-01.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .welcome-container {
