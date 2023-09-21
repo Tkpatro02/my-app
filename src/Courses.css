@@ -1,0 +1,57 @@
+/* Courses.css */
+
+.course {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 300px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.course h3 {
+  margin-top: 0;
+}
+
+.toggle-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.active-course {
+  background-color: #000000;
+}
+
+.inactive-course {
+  background-color: #ff0015;
+}
+
+.active-button {
+  background-color: #5cb85c;
+}
+
+.inactive-button {
+  background-color: #d9534f;
+}
+
+.active-button:hover {
+  background-color: #449d44;
+}
+
+.inactive-button:hover {
+  background-color: #c9302c;
+}

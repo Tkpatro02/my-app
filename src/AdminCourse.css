@@ -1,0 +1,22 @@
+.courses-list{
+    display: flex;
+    padding: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; /* Center horizontally */
+ 
+    
+    
+}
+.position{
+    
+  color: #fff; /* Text color on the gradient button */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
