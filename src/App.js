@@ -2,25 +2,25 @@ import React from "react";
 import LoginPage from "./Loginpage";
 import Navbar from "./Navbar";
 import AdminCourse from "./AdminCourse";
-import Allcourses from "./Allcourses";
+
 import Addcourses from "./Addcourses";
-import Courses from "./Courses";
+
 import "./App.css";
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter as Routes, Route, Router } from "react-router-dom";
 
 function App() {
   return (
+    <Router>
     <div className="App">
+    <Navbar />
+        <Routes>
+          <Route path="/home" element={<LoginPage />} />
+          <Route path="/courses" element={<AdminCourse />} />
+          <Route path="/contact" element={<Addcourses />} />
+        </Routes>
       
-      <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/home" element={<LoginPage/>} />
-        <Route path="/courses" element={<Courses />} />
-       
-      </Routes>
-    </Router>
     </div>
+    </Router>
   );
 }
 
