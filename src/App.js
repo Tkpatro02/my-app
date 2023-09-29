@@ -7,20 +7,16 @@ import Addcourses from "./Addcourses";
 
 import "./App.css";
 import { BrowserRouter as Routes, Route, Router } from "react-router-dom";
+import mainRoutes from "./routes";
 
 function App() {
   return (
-    <Router>
-    <div className="App">
-    <Navbar />
-        <Routes>
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/courses" element={<AdminCourse />} />
-          <Route path="/contact" element={<Addcourses />} />
-        </Routes>
-      
-    </div>
-    </Router>
+    <Routes>
+      <div className="App">
+
+        {mainRoutes()}
+      </div>
+    </Routes>
   );
 }
 
