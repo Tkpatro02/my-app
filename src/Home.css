@@ -1,0 +1,144 @@
+/* HomePage.css */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9; /* Set a background color as needed */
+  padding: 20px;
+  background-image: url("D:\Projectsssss\Courses_frontend\pexels-photoscom-93405.jpg");
+  background-repeat: no-repeat;
+
+}
+
+.welcome-top {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+
+.tagline {
+  font-size: 1.5em;
+  color: #555;
+}
+h1{
+    color: #333;
+}
+
+
+main {
+  max-width: 800px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.featured-courses {
+  margin-bottom: 40px;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.course-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.course-card h3 {
+  margin-top: 10px;
+}
+
+.course-card p {
+  color: #666;
+}
+
+.course-card a {
+  display: block;
+  margin-top: 10px;
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.course-card a:hover {
+  text-decoration: underline;
+}
+
+.cta-section {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 20px 0;
+  
+  color: #0e0e0e;
+}
+/* HomePage.css */
+
+/* ... (previous styles) */
+
+.featured-card {
+    margin-bottom: 40px;
+    background-image: url("D:\Projectsssss\Courses_frontend\971.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(0, 251, 255);
+    
+  }
+  
+  .card {
+    border: 1px solid #545151;
+    border-radius: 8px;
+    padding: 165px;
+    margin-bottom: 20px;
+    color: rgb(0, 251, 255);
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+  }
+  
+  .card p {
+    color: #ffffff;
+  }
+  
+  .card a {
+    display: block;
+    margin-top: 10px;
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  

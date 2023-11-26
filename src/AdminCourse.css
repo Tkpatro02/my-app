@@ -1,18 +1,18 @@
 .courses-list{
     display: table;
-    padding: 2%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto; /* Center horizontally */
+    padding: 25%;
+    display: flex;
+    padding-right: 80vmax;
+
+   
  
     
     
 }
 
 h2{
-  color: black;
+  color: rgb(227, 227, 227);
+  text-align: center;
 }
 .position{
     

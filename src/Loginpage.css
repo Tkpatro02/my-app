@@ -6,11 +6,34 @@
   justify-items: center; 
   align-items: center; 
   min-height: 100vh;
-  background-image: url("../public/3.png");
+  background-image: url("D:\Projectsssss\Courses_frontend\pexels-hitesh-choudhary-7775641.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 
+.welcome-top {
+  text-align: left;
+  margin-right: 10vmax;
+  animation: series 5s ease infinite;
+  color: #504545;
+  text-align: center;
+  
+}
+@keyframes series {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-20px);
+  }
+}
 .welcome-container {
   text-align: center;
   color: #504545; 
@@ -29,6 +52,7 @@
 
 .login-form {
   text-align: center;
+  
 }
 
 /* Additional styling for the login form can be added here */
@@ -57,21 +81,35 @@
     margin-bottom: 100%;
     width: 300px;
     text-align: center;
+    color: #fff;
   }
+  .big-font {
+  font-size: 1.5em; /* Adjust the font size as needed */
+}
+
+.left-align {
+  text-align: left;
+}
   
   h2 {
     margin-bottom: 20px;
+    
   }
   
   .form-group {
     margin-bottom: 15px;
+    
   }
+  
   
   label {
     font-weight: bold;
     display: block;
+    
   }
-  
+  .white-label {
+    color: white;
+  }
   input {
     width: 100%;
     padding: 10px;
@@ -94,5 +132,3 @@
   button:hover {
     background-color: #0056b3;
   }
-
-  

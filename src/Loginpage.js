@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Loginpage.css';
 
 function LoginPage() {
@@ -12,29 +13,39 @@ function LoginPage() {
 
   return (
     <div className="login-page">
-     <h2 className='welcome-top'>Welcome to the Page</h2>
+      
+     <h1 className='welcome-top'>Welcome to OpenBooks.com - Your Gateway to Knowledge</h1>
+     
+    
       <div className="welcome-container">
+        
         <h2 className='welcome-postion'> </h2>
         
         
       </div>
+      
       <div className="login-container">
+      
+        </div>
+     
         <div className="login-form">
-          <h2>Login</h2>
+          
+        
+         
           <form onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                placeholder="Enter your email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
+            <label htmlFor="email" className="white-label">Email</label>
+            <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+            />
             </div>
             <div className="form-group">
-              <label htmlFor="password">Password</label>
+              <label htmlFor="password"className="white-label">Password</label>
               <input
                 type="password"
                 id="password"
@@ -44,11 +55,17 @@ function LoginPage() {
                 required
               />
             </div>
-            <button type="submit">Login</button>
+            <button type="submit">
+        <Link to="/login">Login</Link>
+      </button>
+      
           </form>
+          <p>
+          Don't have an account? <Link to="/register">Sign up</Link>
+        </p>
         </div>
       </div>
-    </div>
+    
   );
 }
 

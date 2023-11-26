@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import SearchBar from "./Searchbox";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,6 +12,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
+   
       <div className="logo">Openbooks.com</div>
       <ul className={`nav-links ${isMobileMenuOpen ? "active" : ""}`}>
         <li>
@@ -29,6 +31,7 @@ function Navbar() {
       <div className="menu-icon" onClick={toggleMobileMenu}>
         &#9776;
       </div>
+      <SearchBar/>
     </nav>
   );
 }

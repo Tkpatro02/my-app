@@ -1,14 +1,15 @@
 .position {
-   padding: 40%;
-   margin-bottom: -5;
-   background-image: url("../public/1.png");
-   background-size: 100%;
-   background-repeat: no-repeat;
-   background-position: center;
+
+  margin-bottom: -5;
+  background-image: url("D:\Projectsssss\Courses_frontend\971.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20%;
   }
   
   h1 {
-    color: #333;
+    color: #fefefe;
   }
   label{
     color: #333;
